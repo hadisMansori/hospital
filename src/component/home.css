@@ -1,0 +1,259 @@
+
+*{
+    box-sizing: border-box;
+  }
+  
+@font-face{
+  font-family: card1;
+  src: url(./font/IRAmir_p30download.com.ttf);
+}
+
+@font-face{
+  font-family: card2;
+  src: url(./font/IRElham_p30download.com.ttf);
+}
+
+@font-face{
+  font-family: card3;
+  src: url(./font/IRHoma_p30download.com.ttf);
+}
+
+@font-face{
+  font-family: card4;
+  src: url(./font/IRTerafikBold_p30download.com.ttf);
+}
+
+@font-face{
+  font-family: card5;
+  src: url(./font/IRYekanBold_p30download.com.ttf);}
+
+@font-face{
+  font-family: card6;
+  src: url(./font/IRYekan_p30download.com.ttf);}
+
+@font-face{
+  font-family: card7;
+  src: url(./font/W_amir_p30download.com.ttf);}
+
+  
+  /* Style the body */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+   
+    margin: 0;
+   
+  }
+  .homeContainer{
+    display: flex;
+    font-family: card4;
+    height: 850px;
+    width: 100%;
+    flex-direction: column; 
+
+  }
+  
+  /* Header/logo Title */
+  .homeHeader {
+    flex:15%;
+    background-color: rgb(13, 138, 138);
+    text-align: center;
+    font-family: card2;
+    color: white;
+ 
+    background-size: cover;
+    background-size:cover;
+    background-position: bottom;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+  
+  }
+  h1{
+    font-family: card6;
+  }
+  /* Main column */
+  .homeContanat {   
+    display: flex;
+    
+    align-items: flex-end;
+    justify-content:flex-end;
+
+  margin-block-start: 50px;
+   
+    height: auto;
+
+  
+    
+  }
+  
+.homeTablePosition{
+  flex:50%;
+  align-items: center;
+  float: right;
+}
+  .hometable{
+    float: right;
+    width: 90%;
+   margin-inline-end: 50px;
+    margin-top: 50px;
+    
+  }
+  .hometable tr{
+    
+background-color: whitesmoke;
+
+  }
+  .hometable td{
+    text-align: center;
+background-color: rgba(6, 177, 171, 0.712);
+border: 1px solid white;
+font-size: 20px;
+
+  }
+  .hometable th{
+    text-align: center;
+    border-right: 1px solid rgb(22, 1, 1);
+font-size: 15px;
+
+  }
+  
+  .homebtnTable{
+    width: 100%;
+  }
+  .homeFooter {
+    flex:10%;
+  
+    text-align: center;
+ 
+    
+      
+  
+  }
+  
+.homebtn{
+ height: 35px;
+float: center; 
+margin-inline-end: 100px;
+border-top-right-radius: 10px;
+border: 2px solid rgb(33, 243, 114);
+background-color: rgba(22, 141, 6, 0.237);
+color: black;
+
+font-size: 15px;
+
+width: auto;
+
+  
+}
+
+.homebtn:hover {
+  background: #2196F3;
+  color: white;
+}
+.homedrop{
+ 
+  padding-block-start: 50px;
+ 
+  
+  
+}
+.homeSlct  {
+  margin-right: 100px ;
+
+  padding: 5px;
+  font-size: 18px
+
+}
+.homeCln   {
+  background-color: rgb(22, 133, 37);
+  float: left; 
+  margin-inline-end: 50px;
+
+ margin-left: 100px;
+
+
+}
+  
+
+@media screen and (max-width: 1150px) {
+  
+.homeCln   {
+
+  
+  display: none;
+  float: right;
+ margin-left: 0px;
+
+
+}
+}
+
+  @media screen and (max-width: 700px) {
+    .homeContanat {  
+      
+    display:table-column-group;
+
+      
+      padding: 20px;
+      
+      
+
+    }
+    h1{
+      font-size: 150%
+    }
+    
+.homebtn{
+ 
+ float: right; 
+ margin-inline-end: 100px;
+ color: black;
+ 
+ font-size: 80%;
+ 
+ width: auto;
+ 
+   
+ }
+    
+.homeSlct  {
+
+  margin-top: 5px;
+  float: right;
+  font-size: 70%;
+  
+}
+.homeCln   {
+
+  
+  display: none;
+  float: right;
+ margin-left: 0px;
+
+
+}
+  
+  }
+  
+  .hometable td{
+    text-align: center;
+background-color: rgba(6, 177, 171, 0.712);
+border: 1px solid white;
+font-size: 100%;
+width: 50%;
+
+
+  }
+  .hometable{
+    float: right;
+    width: 90%;
+   margin-inline-end: 4%;
+    margin-top: 50px;
+    
+  }
+  a{
+    cursor: pointer;
+  }
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+   
+  }

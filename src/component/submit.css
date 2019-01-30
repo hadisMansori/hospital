@@ -1,0 +1,178 @@
+ 
+ 
+  
+@font-face{
+  font-family: card1;
+  src: url(./font/IRAmir_p30download.com.ttf);
+}
+
+@font-face{
+  font-family: card2;
+  src: url(./font/IRElham_p30download.com.ttf);
+}
+
+@font-face{
+  font-family: card3;
+  src: url(./font/IRHoma_p30download.com.ttf);
+}
+
+@font-face{
+  font-family: card4;
+  src: url(./font/IRTerafikBold_p30download.com.ttf);
+}
+
+@font-face{
+  font-family: card5;
+  src: url(./font/IRYekanBold_p30download.com.ttf);}
+
+@font-face{
+  font-family: card6;
+  src: url(./font/IRYekan_p30download.com.ttf);}
+
+@font-face{
+  font-family: card7;
+  src: url(./font/W_amir_p30download.com.ttf);}
+
+  
+ 
+ 
+ .container input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(60, 231, 60);
+  border-radius: 4px;
+  resize: vertical;
+  background-color: rgb(6, 114, 110);
+  color: rgb(247, 227, 14);
+  flex-direction: column;
+  text-align: right;
+  font-family: card4;
+  font-size: 90%;
+  
+}
+
+ label {
+  padding: 12px 12px 12px 0;
+  font-family: card4
+
+
+}
+
+ input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+ 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 17%;
+  font-size: 80%;
+ 
+ 
+}
+.submitBtn{
+  font-family: card4;
+  width: 10%;
+  height: 50px;
+  margin-inline-start: 42%;
+  margin-top: 20px;
+
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container input[type=text]:focus {
+  transition: width 0.9s ease-in-out;
+  width: 80%;
+}
+
+.container {
+  margin-block-start: 10%;
+  margin-inline-end: 25%;
+  border-radius: 5px;
+  width: 50%;
+
+  float: right;
+  display: block;
+  flex-direction: column
+}
+
+.col-25 {
+  float: right;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: right;
+  width: 50%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+.textareaSub{
+  height: 300px;
+
+}
+::placeholder {
+  color: rgba(51, 48, 3, 0.829);
+  opacity: .6; /* Firefox */
+}
+
+.selectContact{
+  color: rgb(179, 169, 41);
+}
+
+@media screen and (max-width: 700px) {
+  input[type=submit]{
+    width: 20%;
+   
+  }
+  .container input[type=text], textarea {
+    width: 300px;
+    
+    margin-inline-start: -35%;
+ 
+}
+
+label {
+display: none;
+ 
+
+}
+    
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 450px) {
+  input[type=submit]{
+    width: 30%;
+  
+  }
+  .container input[type=text], textarea {
+    width: 200px;
+    
+    margin-inline-start: -35%;
+ 
+}
+
+label {
+display: none;
+  margin-inline-start: 100px;
+  font-family: card4
+
+
+}
+}
