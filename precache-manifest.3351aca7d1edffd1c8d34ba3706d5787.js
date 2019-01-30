@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/hospital/static/media/IRHoma_p30download.com.f805f61e.ttf"
   },
   {
-    "revision": "2b4d64d2e4f1a60ed1f6",
+    "revision": "88100ad54be4e7b7950a",
     "url": "/hospital/static/css/main.9a78b475.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/hospital/static/media/IRElham_p30download.com.e7a9ec15.ttf"
   },
   {
-    "revision": "2b4d64d2e4f1a60ed1f6",
-    "url": "/hospital/static/js/main.2b4d64d2.chunk.js"
+    "revision": "88100ad54be4e7b7950a",
+    "url": "/hospital/static/js/main.88100ad5.chunk.js"
   },
   {
     "revision": "d237de656d82b8c9eda4779dbb2450f7",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/hospital/static/media/IRTerafikBold_p30download.com.4c6809da.ttf"
   },
   {
-    "revision": "c38e298ea90c9204bb879c175bc20bc3",
+    "revision": "284e73d22143fef48479f339f2b95498",
     "url": "/hospital/index.html"
   }
 ];
